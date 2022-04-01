@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Waap.Infrastructure\Waap.Infrastructure.csproj" />
     <ProjectReference Include="..\Waap.Model\Waap.Model.csproj" />
     <ProjectReference Include="..\Waap.Service\Waap.Service.csproj" />
   </ItemGroup>

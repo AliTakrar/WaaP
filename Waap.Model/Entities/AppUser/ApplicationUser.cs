@@ -9,6 +9,6 @@ namespace Waap.Model.Entities.AppUser
         [MaxLength(450)]
         public string FullName { get; set; }
         public DateTimeOffset CreateDateTime { get; set; }
-
+        public bool IsDelete { get; set; }
     }
 }
